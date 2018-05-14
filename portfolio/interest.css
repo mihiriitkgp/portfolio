@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+body{
+    font-family: 'Amatic SC', cursive;
+  background-image: url("backint.jpg");
+   background-size: 100%;
+   font-weight:900;
+}
+.navbar{
+  position:fixed;
+  z-index:2;
+}
+.navbar ul{
+  font-size:40px;
+
+  margin:0;
+}
+.navbar li {
+    display: inline;
+
+  border: solid;
+  background-color: #dddddd;
+
+}
+.navbar li a {
+  margin: 0 100px;
+
+    text-decoration: none;
+    color: black;
+}
+.navbar li:hover{
+   background-color: rgb(242, 235, 26);
+}
+.painting{
+  display:inline-block;
+  position:relative;
+  transform:rotate(20deg);
+  top:60px;
+   transition: width 2s, height 2s, transform 1s;
+}
+.painting img{
+  width:500px;
+}
+
+.football{
+  display:inline-block;
+  position:relative;
+    transform: rotate(-25deg);
+    top:60px;
+    transition: width 2s, height 2s, transform 2s;
+}
+.football:hover{
+  transform: rotate(0deg);
+}
+.football img{
+  width:400px;
+
+}
+.cricket{
+  display:inline-block;
+  position:relative;
+  top: -38px;
+      left: 71px;
+}
+.cricket imG{
+  width:430px;
+}
+.swimming{
+  display:inline-block;
+  position:relative;
+    z-index:0;
+    left:105px;
+    transform: rotate(-30deg);
+    transition: width 2s, height 2s, transform 2s;
+}
+.swimming img{
+  width:500px;
+}
+.swimming:hover{
+  transform: rotate(0deg);
+}
+.painting:hover{
+   transform: rotate(0deg);
+
+}

@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+body{
+    font-family: 'Amatic SC', cursive;
+  background-image: url("backint.jpg");
+   background-size: 100%;
+   font-weight:900;
+}
+.navbar{
+  position:fixed;
+  z-index:2;
+}
+.navbar ul{
+  font-size:40px;
+
+  margin:0;
+}
+.navbar li {
+    display: inline;
+
+  border: solid;
+  background-color: #dddddd;
+
+}
+.navbar li a {
+  margin: 0 100px;
+
+    text-decoration: none;
+    color: black;
+}
+.navbar li:hover{
+   background-color: rgb(242, 235, 26);
+}
+.painting{
+  display:inline-block;
+  position: relative;
+left: 140px;
+top: 100px;
+    float: left;
+        animation: fadein 2s ease-in 0s;
+}
+.painting img{
+  width:550px;
+      animation: fadein 2s ease-in 0s;
+}
+.painting .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.painting:hover .overlay {
+  opacity: 1;
+}
+.painting .text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.football{
+  display: block;
+    position: relative;
+    float: right;
+right: 100px;
+top: 500px;
+}
+.football img{
+  width: 440px;
+}
+.football .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.football:hover .overlay {
+  opacity: 1;
+}
+.football .text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.swimming{
+  display: block;
+    position: relative;
+    float: left;
+    top: 380px;
+        right: 450px;
+}
+.swimming img{
+  width:550px;
+}
+.swimming .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.swimming:hover .overlay {
+  opacity: 1;
+}
+.swimming .text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.cricket{
+  display: inline-block;
+position: relative;
+top: 500px;
+    left: 398px;
+  }
+  .cricket img{
+        width: 500px;
+  }
+  .cricket .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.cricket:hover .overlay {
+  opacity: 1;
+}
+.cricket .text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.more{
+
+  font-family: 'Amatic SC', cursive;
+  background: rgba(255,255,255,0.7);
+  width: 35%;
+  height: 144px;
+  padding: 20px;
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 20px;
+  position: relative;
+    left: 410px;
+    top: 690px;
+
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+body{
+    font-family: 'Amatic SC', cursive;
+  background-image: url("img33.jpg");
+   background-size: 100%;
+   font-weight:900;
+}
+.live{
+  display:inline-block;
+  font-family: 'Amatic SC', cursive;
+  background:	rgba(255,255,255,0.44);
+  transform:translate(20px,-200px);
+  width:300px;
+  height:267px;
+  padding:10px;
+}
+.live:hover{
+  background:url("home.jpg");
+  background-size: 100%;
+}
+.navbar{
+  position:fixed;
+  z-index:2;
+}
+.education{
+  display:inline-block;
+  font-family: 'Amatic SC', cursive;
+  background:	rgba(255,255,255,0.44);
+  transform:translate(700px,-100px);
+  width:300px;
+  height:426px;
+  padding: 5px;
+}
+.education:hover{
+  background:url("school.jpg");
+  background-size: 100%;
+}
+.goal{
+  display:inline-block;
+  font-family: 'Amatic SC', cursive;
+  background:	rgba(255,255,255,0.44);
+  transform: translate(-140px,50px);
+    width: 448px;
+    height: 580px;
+      font-size: 30px;
+padding: 10px;
+}
+.goal:hover{
+  background:url("goal1.jpg");
+  background-size: 100%;
+}
+highlight{
+  color:white;
+}
+
+.navbar ul{
+  font-size:40px;
+
+  margin:0;
+}
+.navbar li {
+    display: inline;
+  border: solid;
+  background-color: #dddddd;
+
+}
+.navbar li a {
+  margin: 0 100px;
+
+    text-decoration: none;
+    color: black;
+}
+.navbar li:hover{
+   background-color: rgb(242, 235, 26);
+}
